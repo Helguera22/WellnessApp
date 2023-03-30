@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WellnessApp (Prot)</string>
+    <string name="ingresa_tu_contrase_a">Ingresa tu contraseña</string>
+    <string name="ingresa_tu_contraseña" />
+    <string name="ingresa_tu_correo">Ingresa tu correo</string>
+    <string name="Ingresa_tu_contraseña" />
+    <string name="Ingresa_tu_correo" />
+    <string name="wellnessapp">WellnessApp</string>
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="olvidaste_tu_contrase_a">Olvidaste tu contraseña?</string>
+    <string name="entrar">Entrar</string>
+    <string name="title_activity_doctor_log">Doctor_log</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
