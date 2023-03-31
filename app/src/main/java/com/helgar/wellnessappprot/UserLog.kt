@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 
-class User_log : AppCompatActivity() {
+class UserLog : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

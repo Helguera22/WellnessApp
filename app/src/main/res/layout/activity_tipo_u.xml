@@ -5,7 +5,7 @@
     android:background="@drawable/bg_color"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tipo_U">
+    tools:context=".TipoU">
 
     <ImageView
         android:id="@+id/well_logo"

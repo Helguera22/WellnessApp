@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class Tipo_U : AppCompatActivity() {
+class TipoU : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tipo_u)
@@ -13,15 +13,15 @@ class Tipo_U : AppCompatActivity() {
         val btnpaciente: Button = findViewById(R.id.paciente)
 
         btnpaciente.setOnClickListener {
-            val Intent = Intent(this, User_log::class.java)
-            startActivity(Intent)
+            val intent = Intent(this, UserLog::class.java)
+            startActivity(intent)
         }
 
         val btnmedico: Button = findViewById(R.id.medico)
 
         btnmedico.setOnClickListener {
-            val Intent = Intent(this, Doctor_login::class.java)
-            startActivity(Intent)
+            val intent = Intent(this, Doctorlogin::class.java)
+            startActivity(intent)
         }
     }
 }
