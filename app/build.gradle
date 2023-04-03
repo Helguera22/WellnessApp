@@ -1,4 +1,5 @@
 plugins {
+    id 'com.google.gms.google-services'
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
@@ -52,6 +53,10 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
+    // Dependencias de Firebase:
+    implementation platform('com.google.firebase:firebase-bom:31.3.0')
+
+    // Dependencias sobre el almacenamiento del teléfono:
     implementation "androidx.activity:activity-ktx:$activity_version"
     implementation "androidx.fragment:fragment-ktx:$fragment_version"
 }
