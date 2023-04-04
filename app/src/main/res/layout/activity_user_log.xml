@@ -122,13 +122,14 @@
         app:srcCompat="@android:drawable/ic_lock_idle_lock" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textViewreg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="@string/olvidaste_tu_contrase_a"
         android:textStyle="bold"
         android:textColor="#00AF91"
+        android:clickable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
